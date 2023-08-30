@@ -1,0 +1,345 @@
+*{
+    padding: 0;
+    margin:0;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Bai Jamjuree', sans-serif;
+}
+.hero-section{
+    background-image: url("images/bg-header-desktop.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.hero-image{
+    display: block;
+    margin: 0 auto;
+    padding-top: 120px;
+    width: 110px;
+}
+
+.hero-heading{
+    font-size: 2.8rem;
+    font-weight: 500;
+    color: #50565c;
+    text-align: center;
+    margin-top: 50px;
+}
+
+.hero-paragraph{
+    font-size: 1.1rem;
+    text-align: center;
+    width: 600px;
+    margin: 0 auto;
+    margin-top: 20px;
+    color: hsl(171, 66%, 44%);
+}
+.buttons{
+    display: flex;
+    justify-content: center;
+}
+
+.btn, .butn{
+    width: 200px;
+    height: 50px;
+    margin-top: 40px;
+    border: none;
+    border-radius: 30px;
+    cursor: pointer;
+}
+
+.btn{
+    background-color: #26bba5;
+    color: #fff;
+    margin-right: 20px;
+}
+.butn{
+    background-color: #6074ff;
+    color: #fff;
+}
+
+h2{
+    text-align: center;
+    font-size: 2.1rem;
+    font-weight: 400;
+    color: #4b545b;
+    margin-top: 130px;
+}
+.info-paragraph{
+    text-align: center;
+    font-size: 1rem;
+    width: 600px;
+    margin: 0 auto;
+    margin-top: 20px;
+    color: #c5cacc;
+    line-height: 25px;
+}
+.wrapper{
+    display: flex;
+    margin-top: 70px;
+}
+.images{
+    margin-left: -30px;
+}
+.images img{
+    width: 680px;
+}
+.text{
+    margin-left: 100px;
+}
+h3{
+    font-size: 1.3rem;
+    margin-top: 50px;
+    color: #4b545b;
+}
+.text-para{
+    color: #bcbfc0;
+    width: 300px;
+    margin-top: 15px;
+    line-height: 25px;
+}
+h4{
+    margin-top: 120px;
+    text-align: center;
+    font-size: 2rem;
+    color: #4b545b;
+}
+.tracking-para{
+    text-align: center;
+    width: 600px;
+    margin: 0 auto;
+    margin-top: 20px;
+    color: #bcbfc0;
+}
+.image{
+    width: 840px;
+    display: block;
+    margin: 0 auto;
+    margin-top: 90px;
+}
+
+.workflow-head{
+    margin-top: 70px;
+    text-align: center;
+    font-size: 2rem;
+    color: #4a5257;
+}
+.workflow-para{
+    text-align: center;
+    margin-top: 20px;
+    color: #bcbfc0;
+}
+.cards{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 60px;
+}
+.card-01, .card-02, .card-03{
+    width: 310px;
+    height: 200px;
+}
+.card-01 img, .card-02 img, .card-03 img{
+    display: block;
+    margin: 0 auto;
+}
+.card-head{
+    font-size: 1.3rem;
+    text-align: center;
+    margin-top: 30px;
+}
+.card-para{
+    text-align: center;
+    margin-top: 20px;
+    font-size: .9rem;
+    color: #d7dbdd;
+}
+.compony{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 90px;
+}
+.call-to-action{
+    margin-top: 130px;
+}
+.call-head{
+    text-align: center;
+    font-size: 2rem;
+    color: #4a5257;
+}
+.call-para{
+    text-align: center;
+    color: #bcbfc0;
+    width: 620px;
+    margin: 0 auto;
+    margin-top: 20px;
+}
+.btns{
+    display: flex;
+    justify-content: center;
+}
+.call-btn, .call-butn{
+    width: 200px;
+    height: 50px;
+    border: none;
+    border-radius: 30px;
+    margin-top: 40px;
+    cursor: pointer;
+}
+.call-btn{
+    margin-right: 20px;
+    background-color: #26bba5;
+    color: #fff;
+}
+.call-butn{
+    background-color: #6074ff;
+    color: #fff;
+}
+footer{
+    background-color: #f5f6f8;
+    display: flex;
+    justify-content: space-around;
+    margin-top: 130px;
+    height: 130px;
+}
+.footer-logo{
+    width: 50px;
+    height: 50px;
+    margin-top: auto;
+    margin-bottom: auto;
+}
+ul{
+    margin-top: auto;
+    margin-bottom: auto;
+}
+ul li{
+    list-style-type: none;
+}
+.first{
+    margin-bottom: 20px;
+}
+.second{
+    margin-bottom: 30px;
+}
+ul li a{
+    text-decoration: none;
+    color: #87898d;
+}
+.icons{
+    margin-top: auto;
+    margin-bottom: auto;
+    cursor: pointer;
+}
+.icons-logo{
+    margin-right: 20px;
+}
+@media(max-width: 555px){
+    .hero-paragraph{
+        width: 300px;
+        text-align: none;
+    }
+    .buttons{
+        display: block;
+    }
+    .btn, .butn{
+        display: block;
+        margin-top: 0;
+        margin: 0 auto;
+        width: 300px;
+    }
+    .btn{
+        margin-top: 50px;
+    }
+    .butn{
+        margin-top: 20px;
+    }
+    .info-paragraph{
+        width: 300px;
+    }
+    .wrapper{
+        display: block;
+    }
+    .images{
+        margin-left: 0;
+    }
+    .images img{
+        width: 450px;
+        display: block;
+        margin: 0 auto;
+    }
+    .text{
+        margin: 0 auto;
+    }
+    h3{
+        text-align: center;
+    }
+    .text-para{
+        margin: 0 auto;
+        text-align: center;
+        margin-top: 20px;
+    }
+    .image{
+        width: 450px;
+    }
+    .tracking-para{
+        width: 300px;
+    }
+    .workflow-para{
+        width: 300px;
+        margin: 0 auto;
+        margin-top: 20px;
+    }
+    .cards{
+        display: block;
+    }
+    .card-01, .card-02, .card-03{
+        margin: 0 auto;
+    }
+    .compony{
+        display: block;
+    }
+    .company-logo{
+        display: block;
+        margin: 0 auto;
+        margin-top: 50px;
+    }
+    .call-head{
+        width: 350px;
+        margin: 0 auto;
+    }
+    .call-para{
+        width: 300px;
+    }
+    .btns{
+        display: block;
+        margin-top: 50px;
+    }
+    .call-btn, .call-butn{
+        display: block;
+        margin: 0 auto;
+        width: 280px;
+    }
+    .call-butn{
+        margin-top: 20px;
+    }
+    footer{
+        display: block;
+        height: 380px;
+        padding-top: 50px;
+        padding-bottom: 50px;
+    }
+    .footer-logo{
+        display: block;
+        margin: 0 auto;
+        margin-top: 0;
+        margin-bottom: 0;
+    }
+    ul{
+        margin-top: 20px;
+        text-align: center;
+    }
+    .icons{
+        display: flex;
+        justify-content: center;
+    }
+}
